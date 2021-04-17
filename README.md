@@ -22,8 +22,8 @@ Project has two directories named dags and plugins. A create tables script and r
 - sparkify_etl_dag.py: Defines main DAG, tasks and link the tasks in required order.
 - plugins/operators directory contains:
 
-stage_redshift.py: Defines StageToRedshiftOperator to copy JSON data from S3 to staging tables in the Redshift via copy command.
-load_dimension.py: Defines LoadDimensionOperator to load a dimension table from staging table(s).
-load_fact.py: Defines LoadFactOperator to load fact table from staging table(s).
-data_quality.py: Defines DataQualityOperator to run data quality checks on all tables passed as parameter.
-sql_queries.py: Contains SQL queries for the ETL pipeline (provided in template).
+- stage_redshift.py: Defines StageToRedshiftOperator to copy JSON data from S3 to staging tables in the Redshift via copy command.
+- load_dimension.py: Defines LoadDimensionOperator to load a dimension table from staging table(s).
+- load_fact.py: Defines LoadFactOperator to load fact table from staging table(s).
+- data_quality.py: Defines DataQualityOperator to run data quality checks on all tables passed as parameter.
+- sql_queries.py: Contains SQL queries for the ETL pipeline (provided in template).
