@@ -19,7 +19,7 @@ Project has two directories named dags and plugins. A create tables script and r
 1. create_tables.sql: SQL create table statements provided with template.
 
 3. dags directory contains:
-- sparkify_etl_dag.py: Defines main DAG, tasks and link the tasks in required order.
+- udac_example_dag.py : Defines main DAG, tasks and link the tasks in required order.
 
 3. plugins/operators directory contains:
 
