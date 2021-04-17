@@ -5,7 +5,7 @@ They have decided to bring you into the project and expect you to create high gr
 
 The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
-# Proeject requirements
+# Project requirements
 To complete the project, you will need to create your own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
 # Datasets
@@ -17,10 +17,11 @@ For this project, you'll be working with two datasets. Here are the s3 links for
 Project has two directories named dags and plugins. A create tables script and readme file are at root level:
 
 1. create_tables.sql: SQL create table statements provided with template.
-2. dags directory contains:
 
+3. dags directory contains:
 - sparkify_etl_dag.py: Defines main DAG, tasks and link the tasks in required order.
-- plugins/operators directory contains:
+
+3. plugins/operators directory contains:
 
 - stage_redshift.py: Defines StageToRedshiftOperator to copy JSON data from S3 to staging tables in the Redshift via copy command.
 - load_dimension.py: Defines LoadDimensionOperator to load a dimension table from staging table(s).
