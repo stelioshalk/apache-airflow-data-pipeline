@@ -28,3 +28,9 @@ Project has two directories named dags and plugins. A create tables script and r
 - load_fact.py: Defines LoadFactOperator to load fact table from staging table(s).
 - data_quality.py: Defines DataQualityOperator to run data quality checks on all tables passed as parameter.
 - sql_queries.py: Contains SQL queries for the ETL pipeline (provided in template).
+
+# How to run the project
+- Create a Redshift cluster and run create_tables.sql there for once only.
+Make sure to add following two Airflow connections:
+- AWS credentials, named aws_credentials
+- Connection to Redshift, named redshift
