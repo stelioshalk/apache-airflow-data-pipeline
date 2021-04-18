@@ -30,7 +30,7 @@ Project has two directories named dags and plugins. A create tables script and r
 - sql_queries.py: Contains SQL queries for the ETL pipeline (provided in template).
 
 # How to run the project
-- Create a Redshift cluster and run create_tables.sql there for once only.
+- Create a Redshift cluster and run create_tables.sql once only.
 
 Make sure to add following two Airflow connections:
 
