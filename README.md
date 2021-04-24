@@ -34,5 +34,12 @@ Project has two directories named dags and plugins. A create tables script and r
 
 Make sure to add following two Airflow connections:
 
-- AWS credentials, named aws_credentials
+- AWS credentials, named aws_conn_id
 - Connection to Redshift, named redshift
+
+-Airflow aws_conn_id connection:
+(/Images/AWSConnection.png)
+
+-Airflow redshift conneciton
+(/Images/RedshiftConnection.png)
+
