@@ -38,8 +38,9 @@ Make sure to add following two Airflow connections:
 - Connection to Redshift, named redshift
 
 -Airflow aws_conn_id connection:
+<img src="/Images/AWSConnection.png"/>
 (/Images/AWSConnection.png)
 
--Airflow redshift conneciton
+-Airflow redshift conneciton:
 (/Images/RedshiftConnection.png)
 
