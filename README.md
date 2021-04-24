@@ -42,5 +42,6 @@ Make sure to add following two Airflow connections:
 (/Images/AWSConnection.png)
 
 -Airflow redshift conneciton:
+<img src="/Images/RedshiftConnection.png"/>
 (/Images/RedshiftConnection.png)
 
