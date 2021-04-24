@@ -4,6 +4,10 @@ from airflow.utils.decorators import apply_defaults
 from airflow.contrib.hooks.aws_hook import AwsHook
 
 class StageToRedshiftOperator(BaseOperator):
+    """
+    Operator used for loading the staging tables from json files.
+    """
+    
     ui_color = '#358140'    
     
     copy_sql = """
